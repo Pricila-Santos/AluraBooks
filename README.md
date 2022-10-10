@@ -1,2 +1,2 @@
 # AluraBooks
- Site em desenvovimento da Alura-AluraBooks
+ Site em desenvolvimento da Alura-AluraBooks
