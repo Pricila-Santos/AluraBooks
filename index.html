@@ -69,30 +69,44 @@
           <div class="swiper-slide"><img src="img/Nodejs.svg" alt="Livro Nodejs"></div>
           <div class="swiper-slide"><img src="img/Portugol.svg" alt="livro Portugol"></div>
           <div class="swiper-slide"><img src="img/Tuning.svg" alt="LIvro Sql"></div>
-          ...
+        
         </div>
-       
-      
         <!-- If we need navigation buttons -->
         <div class="swiper-button-prev"></div>
         <div class="swiper-button-next"></div>
       
-       
-      </div>
+        </div>
+        <div class="card">
+            <div class="card__descrição">
+                <div class="descricção">
+                    <h3 class="descrução__titulo">Talvez você também se interesse por...</h3>
+                    <h2 class="descrição__titulo-livro">Angular 11 e Firebase</h2>
+                    <p class="descrição__texto">Construindo uma aplicação integrada com a plataforma do Google.</p>
+                </div>
+                <img src="img/Angular.png" alt="imagem Angular" class="descrição__imagem">
+            </div>
+            <div class="card__botões">
+                <ul class="botões">
+                    <li class="botões__item"><img src="img/Favoritos.svg" alt="favoritar livro"></li>
+                    <li class="botões__item"><img src="img/Sacola.png" alt="adicionar na sacola de compras"></li>
+                </ul>
+                <a href="#" class="botões__ancora">Saiba mais</a>
+
+            </div>
+        </div>
+
 
     </section>
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
     <script>
         const swiper = new Swiper('.swiper', {
-            spaceBetween: 10,
-            slidesPerView: 3,
+            spaceBetween: 10, //espaço entre os slides 
+            slidesPerView: 3, // slides por visualização,nessa caso 3 por vez
             pagination: {
             el: '.swiper-pagination',
-            type: 'bullets',
+            type: 'bullets', // para ficar as bolinhas no slides e para ficar em cima alterar no css position :inicial
   },
 });
-
-
 
     </script>
 
