@@ -36,7 +36,7 @@
     margin: 1em;
     padding: 1em;
 }
-.descrução__titulo {
+.descrição__titulo {
     color: var(--laranja);
     font-weight: 700;
     margin: 0.5em 0;
@@ -82,4 +82,32 @@
 
 
     
+}
+@media screen and (min-width: 1728px) {
+    .carrossel__container {
+        display: flex;
+        margin: 0 20vw 3em 20vw;
+        align-items: center;
+    }
+    .swiper-pagination {
+        margin: 1em 0;
+    }
+    .swiper {
+          width: 55%;
+    
+    }
+    .descição {
+        margin: 2em;
+    }
+    .descrição__titulo {
+        font-size: 32px;
+    }
+    .descrição__texto {
+        font-size: 16px;
+    }
+    .card{
+        width: 60%;
+        margin-left: 3em;
+    }
+
 }
