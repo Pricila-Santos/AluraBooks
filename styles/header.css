@@ -51,3 +51,64 @@
 .container__botao {
     display: none; /*para esconder o checkbox*/
 }
+.container__titulo {
+    display: none; /*para o titulo não aparecer no celular,somente na medida @media screan*/
+}
+.opções {
+    display: none;
+}
+.container__texto {
+    display: none;
+}
+@media screen and (min-width:1024px){
+    .container__titulo, .container__titulo--negrito {
+        font-family: var(--fonte-secundario);
+        font-size: 30px;
+    }
+    .container__titulo {
+        font-weight: 400;
+        display: block; /*para aparecer o titulo que esta display nome para não aparecer no mobile*/
+
+    }
+    .container__titulo--negrito {
+        font-weight: 700;
+    }
+    .opções {
+        display: flex;
+    }
+    .opções__item {
+    padding: 0 1em ;
+    text-transform: uppercase;
+
+}
+.opções__link {
+    text-decoration: none;
+    color:black
+}
+.container__imagem-transparente {
+    display: none; /*para a img de coração não aparecer no tablete*/
+}
+.cabeçalho__menu_hamburguer {
+    display: none;
+ }
+
+}
+
+@media screen and (min-width: 1728px) {
+    .container-link {
+        display: flex;
+        align-items: center;
+        text-decoration: none;
+        color: black;
+
+    }
+    .cabeçalho {
+        padding: 0 2em;
+    }
+    .opções {
+        margin-right: auto;
+    }
+    .container__texto {
+        display: block;
+    }
+}
