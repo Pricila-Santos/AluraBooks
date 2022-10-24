@@ -19,6 +19,14 @@ hr {
         align-items: center;
         margin: 0.6em 0;
     }
+    .lista__rodape__item >img:hover {
+        transition: 1s all;
+        transform: scale(1.5);
+    }
+   .lista__rodape__item > a:hover {
+        color: var(--laranja);
+    }
+    }
     a {
         color: var(--cinza);
         text-decoration: none;

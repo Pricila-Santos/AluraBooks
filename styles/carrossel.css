@@ -79,6 +79,10 @@
         width: 40%;
         margin:2em auto;
     }
+    .descrição__imagem:hover {
+        transition: 2s all;
+        transform: scale(1.5);
+    }
 
 
     
