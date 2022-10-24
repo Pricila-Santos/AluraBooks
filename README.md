@@ -1,6 +1,6 @@
 # AluraBooks
   Segue abaixo o link do site desenvolvindo no curso da Alura (AluraBooks) <br>
-  https://pricila-santos.github.io/AluraBooks/
+  ## https://pricila-santos.github.io/AluraBooks/
   <hr>
   
 <p align="center"> <img src="https://imgur.com/Hy6t2jH.png" alt="HTML e CSS: responsividade com mobile-first"> </p>
