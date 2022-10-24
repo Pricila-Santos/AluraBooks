@@ -83,6 +83,9 @@
         transition: 2s all;
         transform: scale(1.5);
     }
+    .botões__ancora:active {
+        background-color: var(--azul);
+    }
 
 
     
